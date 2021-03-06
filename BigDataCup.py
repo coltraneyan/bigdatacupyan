@@ -166,55 +166,14 @@ fig = go.Figure(data=[go.Table(header=dict(values=['<b>PLAYER</b>','<b>MAXIM GOL
 fig.show()
 
 
-# In[31]:
 
 
 
 
 
-# In[32]:
 
 
 
-
-
-# In[37]:
-
-
-
-
-
-# In[39]:
-
-
-
-
-
-# In[7]:
-
-
-
-
-
-# In[1]:
-
-
-# PLAYER TABLE
-import plotly.graph_objects as go
-
-fig = go.Figure(data=[go.Table(header=dict(values=['<b>PLAYER</b>','<b>MAXIM GOLOD</b>', '<b>CHAD YETMAN</b>']),
-                 cells=dict(values=[['GP', 'G', 'A', 'P', 'Central Scouting', 'NHL Status'], [63, 25, 53, 78, 213, 'ANA - FA, 2020'], [61, 43, 31, 74, 'NR', 'CHI - 172nd, 2020']]))
-                     ])
-fig.show()
-
-
-# In[6]:
-
-
-print(otters.loc[[345]])
-
-
-# In[ ]:
 
 
 
